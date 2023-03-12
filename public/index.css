@@ -1,0 +1,49 @@
+body{
+    background-color: black;
+    box-sizing: border-box;
+}
+
+h1{
+    color: white;
+    text-align: center;
+    font-weight: 900;
+}
+.container{
+    width: 50%;
+    border: 2px solid silver;
+    margin: auto;
+    height: 60vh;
+    overflow: auto;
+}
+
+.send{
+    margin: 16px auto;
+    width: 50%;
+}
+
+#messageInp{
+    width: 88%;
+    padding: 4px;
+    border-radius: 2px;
+    outline: none;
+    border: none;
+}
+.btn{
+    width: 10%;
+    outline: none;
+    border: none;
+    background-color: red;
+    color: white;
+    padding: 4px;
+    border-radius: 2px
+}
+
+.message{
+    color: white;
+    background-color: #3d8fbb;
+    width: 20%;
+    margin: 16px 16px 0 16px;
+    font-size: 14px;
+    padding: 5px 12px;
+    border-radius: 6px;
+}
